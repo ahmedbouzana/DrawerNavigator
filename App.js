@@ -10,6 +10,7 @@ import React, {Component} from 'react';
 import {DrawerNavigator} from 'react-navigation';
 import {Home} from './app/components/Home'
 import {Dashboard} from './app/components/Dashboard'
+import Sidebar from './app/components/Sidebar'
 
 
 class App extends Component {
@@ -23,6 +24,8 @@ class App extends Component {
 const AppStack = DrawerNavigator({
   home: {screen:Home},
   dashboard:{screen: Dashboard}
+},{
+  contentComponent: Sidebar
 })
 
 export default App
