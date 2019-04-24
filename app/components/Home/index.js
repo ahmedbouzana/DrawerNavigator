@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {View, Text} from 'react-native'
+import {View, Text, Image} from 'react-native'
 
 class Home extends Component{
 
@@ -10,6 +10,8 @@ class Home extends Component{
     render(){
         return(
             <View>
+                <Image style={{widh:250, height:300}} 
+                source={{uri:'https://codedamn.com/logo.png'}} />
                 <Text>Home</Text>
             </View>
         )
