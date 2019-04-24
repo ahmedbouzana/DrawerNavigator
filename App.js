@@ -24,7 +24,7 @@ const AppStack = DrawerNavigator(
     dashboard: { screen: Dashboard }
   },
   {
-    contentComponent: Sidebar
+    contentComponent: ({navigation}) => <Sidebar navigation={navigation}/>
   }
 );
 
