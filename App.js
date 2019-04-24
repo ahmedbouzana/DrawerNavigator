@@ -8,9 +8,9 @@
 
 import React, { Component } from "react";
 import { DrawerNavigator } from "react-navigation";
-import Home from "./app/components/Home";
-import Dashboard from "./app/components/Dashboard";
-import Sidebar from "./app/components/Sidebar";
+import Home from "@components/Home";
+import Dashboard from "@components/Dashboard";
+import Sidebar from "@components/Sidebar";
 
 class App extends Component {
   render() {
